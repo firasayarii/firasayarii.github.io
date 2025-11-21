@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Firas Ayari - ICT Engineer specializing in AI, Data Science and Computer Vision.">
+    <title>Firas Ayari | AI & Data Engineer</title>
+    
+    <!-- Icons & Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Fira+Code&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Firas.AI<span class="cursor">_</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact" class="btn-primary">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="about">
+        <div class="container hero-layout">
+            <div class="hero-content">
+                <span class="badge">ICT Engineer (Sup'Com Graduate)</span>
+                <h1>Building Intelligent <br> <span class="gradient-text">Generative AI & Data Solutions</span></h1>
+                <p>Freshly graduated Data Scientist & AI Engineer. Expert in RAG Architectures, Computer Vision, and Physical Modeling. Previously at CESBIO/CNRS.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Work</a>
+                    <a href="https://github.com/firasayarii" target="_blank" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+            <!-- Image Wrapper -->
+            <div class="hero-image-container">
+                <div class="img-wrapper">
+                    <!-- IMPORTANT: Place ta photo nommée 'firas.jpg' dans le dossier -->
+                    <img src="firas.jpg" alt="Firas Ayari" class="profile-img">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </header>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                
+                <!-- Item 1: CESBIO -->
+                <div class="timeline-item">
+                    <div class="timeline-date">03/2025 - 08/2025</div>
+                    <div class="timeline-content">
+                        <h3>AI Research Intern (End of Studies)</h3>
+                        <h4>CESBIO, CNRS - Toulouse, France</h4>
+                        <p>Contributed to the enhancement of the 3D DART model for satellite observations. Integrated Machine Learning based approaches to estimate variables for atmospheric radiative transfer modeling.</p>
+                        <div class="tags">
+                            <span>Physical Modeling</span><span>Python</span><span>Research</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2: My Easy Transfer (Freelance) -->
+                <div class="timeline-item">
+                    <div class="timeline-date">07/2024 - 09/2024</div>
+                    <div class="timeline-content">
+                        <h3>Freelance AI Developer</h3>
+                        <h4>My Easy Transfer - Paris (Remote)</h4>
+                        <p>Leveraged OCR and Computer Vision (OpenCV) for automated ID verification and facial recognition, enhancing security protocols and user authentication.</p>
+                        <div class="tags">
+                            <span>OCR</span><span>OpenCV</span><span>Security</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3: Knowlepsy -->
+                <div class="timeline-item">
+                    <div class="timeline-date">07/2024 - 09/2024</div>
+                    <div class="timeline-content">
+                        <h3>AI Intern</h3>
+                        <h4>Knowlepsy - Marseille (Remote)</h4>
+                        <p>Performed Feature Engineering & Clustering for hand activity recognition. Managed experiments tracking using MLflow.</p>
+                        <div class="tags">
+                            <span>MLflow</span><span>Clustering</span><span>Data Science</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 4: My Easy Transfer (Internship - ADDED BACK) -->
+                <div class="timeline-item">
+                    <div class="timeline-date">07/2023 - 08/2023</div>
+                    <div class="timeline-content">
+                        <h3>Data Science Intern</h3>
+                        <h4>My Easy Transfer - Paris (Remote)</h4>
+                        <p>Generated data-driven insights for strategic decision-making. Developed predictive models for customer demand and deployed a Chatbot using IBM Watson Assistant.</p>
+                        <div class="tags">
+                            <span>Predictive Models</span><span>IBM Watson</span><span>Analytics</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section (Expanded to 6 Projects) -->
+    <section id="projects" class="section bg-darker">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <!-- 1. RAG Guard -->
+                <article class="project-card">
+                    <div class="card-header">
+                        <i class="fas fa-robot folder-icon"></i>
+                        <div class="project-links"><a href="#"><i class="fab fa-github"></i></a></div>
+                    </div>
+                    <h3>RAG-Guard System</h3>
+                    <p>Intelligent Query Routing using Langchain & Llama 3.1. Integrates CRAG and Self-RAG techniques for enhanced query handling.</p>
+                    <ul class="tech-stack"><li>Langchain</li><li>GenAI</li><li>Vector DB</li></ul>
+                </article>
+
+                <!-- 2. LLM SQL -->
+                <article class="project-card">
+                    <div class="card-header">
+                        <i class="fas fa-database folder-icon"></i>
+                        <div class="project-links"><a href="#"><i class="fab fa-github"></i></a></div>
+                    </div>
+                    <h3>LLM-SQL Retriever</h3>
+                    <p>An NLP-to-SQL converter leveraging Llama 3 and Grockcloud. Transforms natural language into functional SQL commands.</p>
+                    <ul class="tech-stack"><li>NLP</li><li>SQL</li><li>Python</li></ul>
+                </article>
+
+                <!-- 3. Car Plates (ADDED) -->
+                <article class="project-card">
+                    <div class="card-header">
+                        <i class="fas fa-car folder-icon"></i>
+                        <div class="project-links"><a href="#"><i class="fab fa-github"></i></a></div>
+                    </div>
+                    <h3>Car Plates Detection</h3>
+                    <p>Developed a car plate detection and recognition system using computer vision techniques for accurate ID reading.</p>
+                    <ul class="tech-stack"><li>OpenCV</li><li>OCR</li><li>Computer Vision</li></ul>
+                </article>
+
+                <!-- 4. fNIRS (ADDED) -->
+                <article class="project-card">
+                    <div class="card-header">
+                        <i class="fas fa-brain folder-icon"></i>
+                        <div class="project-links"><a href="#"><i class="fab fa-github"></i></a></div>
+                    </div>
+                    <h3>fNIRS Brain Prediction</h3>
+                    <p>Predictive model analyzing brain activity from fNIRS images to forecast task execution speed based on neural responses.</p>
+                    <ul class="tech-stack"><li>Deep Learning</li><li>Neuroscience</li><li>Analytics</li></ul>
+                </article>
+
+                <!-- 5. Medical XAI -->
+                <article class="project-card">
+                    <div class="card-header">
+                        <i class="fas fa-heartbeat folder-icon"></i>
+                        <div class="project-links"><a href="#"><i class="fab fa-github"></i></a></div>
+                    </div>
+                    <h3>XAI for Medical Imaging</h3>
+                    <p>Implemented SHAP & LIME for Deep Learning classifiers to help doctors interpret medical image decisions.</p>
+                    <ul class="tech-stack"><li>XAI</li><li>Deep Learning</li><li>SHAP</li></ul>
+                </article>
+
+                <!-- 6. Cover Letter -->
+                <article class="project-card">
+                    <div class="card-header">
+                        <i class="fas fa-file-alt folder-icon"></i>
+                        <div class="project-links"><a href="#"><i class="fab fa-github"></i></a></div>
+                    </div>
+                    <h3>Cover Letter Gen</h3>
+                    <p>Automated tool using Streamlit and GenAI to create personalized cover letters directly from job offer URLs.</p>
+                    <ul class="tech-stack"><li>Streamlit</li><li>GenAI</li><li>Automation</li></ul>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical Arsenal</h2>
+            <div class="skills-wrapper">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming</h3>
+                    <div class="skill-list">
+                        <span>Python</span><span>C++</span><span>SQL</span><span>Matlab</span><span>Kotlin</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-robot"></i> AI & ML</h3>
+                    <div class="skill-list">
+                        <span>Deep Learning</span><span>NLP & RAG</span><span>Computer Vision</span><span>Generative AI</span><span>MLOps (MLflow)</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Dev Tools</h3>
+                    <div class="skill-list">
+                        <span>Git/GitHub</span><span>Docker</span><span>FastAPI</span><span>Streamlit</span><span>Linux</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <h3>Let's Connect</h3>
+                <p>Open to opportunities. Feel free to reach out.</p>
+                <a href="mailto:firas.ayari@supcom.tn" class="email-link">firas.ayari@supcom.tn</a>
+            </div>
+            <div class="footer-right">
+                <a href="https://github.com/firasayarii" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/Firas-Ayari" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Designed & Built by Firas Ayari © <span id="year"></span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
